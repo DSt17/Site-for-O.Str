@@ -1,0 +1,52 @@
+.NavBlockBox {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+
+}
+
+.navBlockLink{
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+.navBlockLink a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: inherit;
+    line-height: 2em;
+    padding: 5px 20px;
+    font-size: 17px
+}
+
+.title {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.title h1 {
+    font-size: 50px;
+    margin-top: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: -15px;
+}
+
+
+.title span {
+    margin-top: -15px;
+    font-size: 15px;
+
+}
+
+.title a {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
