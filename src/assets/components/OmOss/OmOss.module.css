@@ -1,0 +1,35 @@
+.omOssDescription h2{
+    font-family:'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: calc(40px + 14 * ( (100vw - 576px) / 1024));
+    line-height: 1.05;
+}
+.omOssDescription p{
+    color: white;
+    margin-right: 110px;
+    padding-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.65;
+}
+.omOssDescription{
+    padding-top: 80px;
+    padding-left: 100px;
+    width: 500px;
+    height: 300px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b64cc;
+    border-color: #0b64cc;
+    color: #fff;
+    font-weight: 700;
+    height: 45px;
+    width: 90px;
+    border-radius: 5px;
+    text-decoration: none;
+}

@@ -1,0 +1,54 @@
+.descriptionBlock{
+position: relative;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    width: 30%;
+
+
+}
+.descriptionBlock h3{
+    font-family:'Roboto Condensed', sans-serif;
+    color: #282c47;
+    font-weight: 700;
+    font-size: calc(36px + 4 * ( (100vw - 576px) / 1024));
+    margin-top: -80px;
+    padding-right: 20px;
+
+}
+
+.descriptionBlock p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin: 10px auto;
+    display: block;
+    line-height: 1.65;
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b64cc;
+    border-color: #0b64cc;
+    color: #fff;
+    font-weight: 700;
+    height: 45px;
+    width: 90px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.titleAndDescription{
+    margin-top: 100px;
+    margin-bottom: 20px;
+
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+
+
+
+}
