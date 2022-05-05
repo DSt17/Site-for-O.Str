@@ -1,9 +1,9 @@
 .titleAndDescription {
     height: 400px;
     width: 350px;
-    margin-top: 70px;
     margin-left: 100px;
     position: relative;
+    padding-top: 50px;
 }
 
 .titleAndDescription h2 {

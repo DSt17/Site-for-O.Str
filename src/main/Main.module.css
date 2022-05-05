@@ -1,5 +1,6 @@
 .mainBlock {
-    border: 1px solid black;
+    position: relative;
+
 }
 
 .devProject {
@@ -9,6 +10,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    position: relative;
 }
 
 .devProject img {
@@ -22,10 +24,14 @@
 .omOss {
     height: 90vh;
     background-color: black;
+    position: relative;
+
 }
 
 .JobbaHosOss {
     height: 100vh;
     background-color: white;
     padding: 100px 100px;
+    position: relative;
+
 }

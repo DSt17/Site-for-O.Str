@@ -6,12 +6,8 @@ function DescriptionBlock(props) {
     return (
         <div className={s.descriptionBlock}>
             <div className={s.titleAndDescription}>
-                <h3>
-                    {props.title}
-                </h3>
-                <p>
-                    {props.description}
-                </p>
+                <h3>{props.title}</h3>
+                <p>{props.description}</p>
             </div>
             <div>
                 <a href="" className={s.btn}>
