@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Site-for-O.Str/static/css/main.edd0e111.css",
-    "main.js": "/Site-for-O.Str/static/js/main.fe453323.js",
+    "main.css": "/Site-for-O.Str/static/css/main.273abada.css",
+    "main.js": "/Site-for-O.Str/static/js/main.0c189546.js",
     "static/js/787.28cb0dcd.chunk.js": "/Site-for-O.Str/static/js/787.28cb0dcd.chunk.js",
     "static/media/20211011-Mekan-WEBB-15.jpg": "/Site-for-O.Str/static/media/20211011-Mekan-WEBB-15.4917544bf768d459339c.jpg",
     "static/media/projectOrWhitePaper.gif": "/Site-for-O.Str/static/media/projectOrWhitePaper.b3a51c435b945d985880.gif",
     "static/media/drill-milling-milling-machine-drilling-51320.jpeg": "/Site-for-O.Str/static/media/drill-milling-milling-machine-drilling-51320.947f70c1749ad6963fd0.jpeg",
     "static/media/11_Rityta-1.png": "/Site-for-O.Str/static/media/11_Rityta-1.022b9fa24021dc3af814.png",
     "index.html": "/Site-for-O.Str/index.html",
-    "main.edd0e111.css.map": "/Site-for-O.Str/static/css/main.edd0e111.css.map",
-    "main.fe453323.js.map": "/Site-for-O.Str/static/js/main.fe453323.js.map",
+    "main.273abada.css.map": "/Site-for-O.Str/static/css/main.273abada.css.map",
+    "main.0c189546.js.map": "/Site-for-O.Str/static/js/main.0c189546.js.map",
     "787.28cb0dcd.chunk.js.map": "/Site-for-O.Str/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.edd0e111.css",
-    "static/js/main.fe453323.js"
+    "static/css/main.273abada.css",
+    "static/js/main.0c189546.js"
   ]
 }
