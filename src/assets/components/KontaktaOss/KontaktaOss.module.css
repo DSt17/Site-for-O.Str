@@ -1,0 +1,42 @@
+.titleAndDescription {
+    height: 400px;
+    width: 350px;
+    margin-top: 70px;
+    margin-left: 100px;
+    position: relative;
+}
+
+.titleAndDescription h2 {
+    color: white;
+    font-family: Roboto Condensed, sans-serif;
+    font-weight: 700;
+    font-size: calc(40px + 14 * ((100vw - 576px) / 1024));
+    line-height: 1.05;
+}
+
+.titleAndDescription p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.65;
+    font-size: 16px;
+}
+
+.titleAndDescription a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282c47;
+    border-color: #282c47;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: inherit;
+    font-weight: 700;
+    height: 50px;
+    width: 110px;
+    border-radius: 5px;
+    text-decoration: none;
+
+    margin-top: 40px;
+}

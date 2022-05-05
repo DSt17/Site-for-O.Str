@@ -1,5 +1,6 @@
 {
   "name": "my-app",
+  "homepage": "https://DSt17.github.io/Site-for-O.Str",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,10 +10,8 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.0",
-    "homepage": "https://DSt17.github.io/Site-for-O.Str"
+    "web-vitals": "^2.1.0"
   },
-
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
