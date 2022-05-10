@@ -1,5 +1,5 @@
-.descriptionBlock{
-position: relative;
+.descriptionBlock {
+    position: relative;
     margin-right: 40px;
     display: flex;
     flex-direction: column;
@@ -8,27 +8,39 @@ position: relative;
     width: 30%;
 
 
+
+
 }
-.descriptionBlock h3{
-    font-family:'Roboto Condensed', sans-serif;
+
+@media screen and (max-width: 1118px) {
+    .descriptionBlock {
+        width: 90%;
+    }
+}
+
+
+.descriptionBlock h3 {
+    font-family: 'Roboto Condensed', sans-serif;
     color: #282c47;
     font-weight: 700;
-    font-size: calc(36px + 4 * ( (100vw - 576px) / 1024));
+    font-size: calc(36px + 4 * ((100vw - 576px) / 1024));
     margin-top: -80px;
     padding-right: 20px;
 
 }
 
-.descriptionBlock p{
+.descriptionBlock p {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     margin: 10px auto;
     display: block;
     line-height: 1.65;
+    word-wrap: normal;
 
 }
-.btn{
+
+.btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,14 +53,14 @@ position: relative;
     border-radius: 5px;
     text-decoration: none;
 }
-.titleAndDescription{
+
+.titleAndDescription {
     margin-top: 100px;
     margin-bottom: 20px;
 
     display: inline-block;
     vertical-align: top;
     position: relative;
-
 
 
 }

@@ -1,6 +1,7 @@
 .mainBlock {
     position: relative;
 
+
 }
 
 .devProject {
@@ -11,15 +12,25 @@
     flex-direction: row;
     flex-wrap: nowrap;
     position: relative;
+
 }
 
 .devProject img {
     height: 450px;
-    width: 400px;
+    width:40%;
     max-height: 100%;
     max-width: 100%;
     padding-right: 100px;
-    position: relative;
+}
+@media screen and (max-width: 1118px){
+    .devProject img{
+        display: none;
+    }
+    .devProject{
+        flex-direction: column;
+        padding: 5px;
+    }
+
 }
 
 .omOss {

@@ -24,6 +24,11 @@
 .imgAndDescriptionContainer img{
     padding-right: 90px;
 }
+@media screen and (max-width: 1118px) {
+    .imgAndDescriptionContainer img {
+        display: none;
+    }
+}
 
 .imgAndDescriptionContainer h2{
     font-family: 'Roboto Condensed', sans-serif;
