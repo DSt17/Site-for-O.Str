@@ -6,7 +6,7 @@
     justify-content: space-between;
     z-index: 1;
 
-    position:relative;
+    position:fixed;
     background-color: white;
 }
 
@@ -32,11 +32,12 @@
     font-style: inherit;
     line-height: 2em;
     padding: 5px 20px;
-    font-size: 15px
+    font-size: 14px
 }
 @media screen and (max-width: 1118px) {
     .navBlockLink a {
         padding: 5px 15px;
+        font-weight: 700;
     }
 }
 
