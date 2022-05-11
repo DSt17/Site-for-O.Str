@@ -8,13 +8,15 @@
     width: 30%;
 
 
-
-
 }
 
 @media screen and (max-width: 1118px) {
     .descriptionBlock {
-        width: 90%;
+        width: 100%;
+        margin-right: 0;
+        padding: 0;
+
+
     }
 }
 
@@ -54,13 +56,28 @@
     text-decoration: none;
 }
 
+@media screen and (max-width: 1118px) {
+    .btn {
+        margin-left: 15px;
+    }
+}
+
 .titleAndDescription {
     margin-top: 100px;
     margin-bottom: 20px;
-
     display: inline-block;
     vertical-align: top;
     position: relative;
 
+}
 
+@media screen and (max-width: 1118px) {
+    .titleAndDescription {
+        padding: 15px;
+        margin-top: 80px;
+        margin-bottom: 0;
+
+
+
+    }
 }

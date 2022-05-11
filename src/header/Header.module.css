@@ -1,12 +1,17 @@
 .headerBlock {
     height: 100vh;
     background-color: black;
-    border: 1px solid black;
     background-size: cover;
     background-repeat: no-repeat;
     background-position:bottom;
     position: relative;
 }
+@media screen and (max-width: 1118px) {
+    .headerBlock {
+        height: 50vh;
+    }
+}
+
 .headerBlock::before{
     position: absolute;
     content: "";

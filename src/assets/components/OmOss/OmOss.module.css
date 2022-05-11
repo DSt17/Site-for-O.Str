@@ -17,9 +17,32 @@
 .omOssDescription{
     padding-top: 80px;
     padding-left: 100px;
-    width: 500px;
+    width: 40%;
     height: 300px;
 }
+
+@media screen and (max-width: 1118px) {
+    .omOssDescription  {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .omOssDescription h2{
+        padding: 15px;
+
+    }
+    .omOssDescription p{
+        padding: 15px;
+        margin: 0;
+    }
+    .btn{
+        margin-left: 15px;
+    }
+}
+
 .btn{
     display: flex;
     justify-content: center;

@@ -28,7 +28,8 @@
     }
     .devProject{
         flex-direction: column;
-        padding: 5px;
+        padding: 0;
+        height: 100vh;
     }
 
 }
@@ -37,7 +38,13 @@
     height: 90vh;
     background-color: black;
     position: relative;
+    width: 100%;
 
+}
+@media screen and (max-width: 1118px) {
+    .omOss {
+        height: 80vh;
+    }
 }
 
 .JobbaHosOss {
@@ -46,4 +53,10 @@
     padding: 100px 100px;
     position: relative;
 
+}
+@media screen and (max-width: 1118px) {
+    .JobbaHosOss {
+        height: 80vh;
+        padding: 0;
+    }
 }
